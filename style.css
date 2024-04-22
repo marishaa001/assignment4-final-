@@ -1,0 +1,76 @@
+body {
+    background-color: rgba(104, 104, 207, 0.753);
+}
+.size{
+    width: 700px;
+    height: 450px;
+}
+
+.carousel-inner{
+    position: relative;
+    left: 28vw;
+    top: 10vh;
+    max-width: 700px;
+}
+
+.carousel-control-next-icon{
+    position: relative;
+    right: 21vw;
+    top: 7vh;
+}
+
+.carousel-control-prev-icon{
+    position: relative;
+    left: 24vw;
+    top: 7vh;
+}
+
+.logo {
+    width: 10%;
+    height: 15%;
+
+}
+.buttons{
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.container{
+   position :relative;
+    margin-left: 270px;
+} 
+img{
+    margin: 2 px;
+    padding: 10 px;
+    border: 5 px;
+}
+footer{
+    background-color: aliceblue; position: relative;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.footerimg {
+    width: 8%;
+    height: 10%;
+}
+.inner{ border: 1px yellow;
+     border-radius: 5px; 
+     height: 20px; width: 250px; background: linear-gradient(rgb(243, 243, 169), white); 
+    margin: 50px; 
+    padding: 50px; 
+    text-align: center; 
+    font-family: "Outfit", sans-serif;
+     font-optical-sizing: auto; 
+     font-weight: 500; font-style: normal;
+     }
+ .inner:hover{
+     color: rgb(31, 92, 233);
+     }
+     .containers{ 
+        display: flex; 
+    } 
+    h2{
+     font-family: "Bebas Neue", sans-serif; 
+     font-weight: 400;
+      font-style: normal; 
+      font-size: 40; }
